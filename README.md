@@ -1,8 +1,17 @@
-# React + Vite
+# 2024.07.08 월요일 오전6시 전까지 제출
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Code Challenge:
 
-Currently, two official plugins are available:
+- Using React Router, Styled Components and React Query build an app like this one:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Requirements:
+
+## The app must have the following pages:
+
+- Home Page (/): Display a list of all the Disney characters.
+- Detail Page (/character/:id): Display the character detail.
+
+# Notes:
+
+- To get a list of all the characters use this URL: https://disney_api.nomadcoders.workers.dev/characters
+- To get a character detail use this URL: https://disney_api.nomadcoders.workers.dev/characters/:id
