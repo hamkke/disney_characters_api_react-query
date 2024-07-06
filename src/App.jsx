@@ -1,4 +1,12 @@
+import { Outlet } from 'react-router-dom';
+import { GlobalStyle } from './GlobalStyle';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <GlobalStyle />
+      <Outlet />
+    </div>
+  );
 };
 export default App;
